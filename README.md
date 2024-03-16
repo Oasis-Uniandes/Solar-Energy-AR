@@ -37,7 +37,7 @@ Solar Energy AR is an innovative augmented reality (AR) platform designed to emp
 
 - **Interactive Solar Panel Placement:** Users can virtually position solar panels on their rooftops or other surfaces to visualize how they would appear in real life.
 - **Customization Options:** Adjust panel orientation, tilt, and quantity to explore different solar configurations.
-- **Real-Time Sun Path Simulation:** SolarAR dynamically shows how sunlight interacts with the panels throughout the day and across seasons.
+- **Real-Time Sun Path Simulation:** Solar Energy AR dynamically shows how sunlight interacts with the panels throughout the day and across seasons.
 - **Energy Estimation:** Get an estimate of potential energy production based on location, panel efficiency, and local weather data.
 
 
@@ -57,7 +57,7 @@ Solar Energy AR is an innovative augmented reality (AR) platform designed to emp
 ## :point_up: Usage ##
 
 1. Install HoloLens App:
-    - Deploy the SolarAR app to your Microsoft HoloLens 2 device using Unity and the Mixed Reality Toolkit (MRTK3).
+    - Deploy the Solar Energy AR app to your Microsoft HoloLens 2 device using Unity and the Mixed Reality Toolkit (MRTK3).
     - Ensure your HoloLens is connected and configured for development.
 2. Calibrate Environment:
     - Find a well-lit area with minimal obstructions.
@@ -66,7 +66,7 @@ Solar Energy AR is an innovative augmented reality (AR) platform designed to emp
     - Use gestures or voice commands to place, rotate, and adjust solar panels.
     - Observe how shadows change as the sun moves throughout the day.
 4. Evaluate Energy Potential:
-    - SolarAR provides real-time energy estimates based on panel placement and local conditions.
+    - Solar Energy AR provides real-time energy estimates based on panel placement and local conditions.
     - Consider factors like roof orientation, shading, and available space.
 
 ## :handshake: Credits ##
