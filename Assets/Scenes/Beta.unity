@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -195,27 +195,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.2419286
+      value: 0.044
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.21
+      value: 1.624
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.55
+      value: 0.389
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8242b28a6028fce44bb5211eb5e4926f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -453,6 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Solecito
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b52d2b7387b7a9b4e9e4079916a2aa33, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -628,6 +632,7 @@ GameObject:
   - component: {fileID: 6704682605535963252}
   - component: {fileID: 6704682605535963254}
   - component: {fileID: 6704682605535963255}
+  - component: {fileID: 6704682605535963256}
   m_Layer: 0
   m_Name: solpanel
   m_TagString: Untagged
@@ -889,8 +894,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50cdab0cd5a0916419324bb54314773d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoConstraintSelection: 1
-  selectedConstraints: []
+  autoConstraintSelection: 0
+  selectedConstraints:
+  - {fileID: 6704682605535963256}
 --- !u!64 &6704682605535963254
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -953,6 +959,23 @@ MonoBehaviour:
   manipulationEnded:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6704682605535963256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6704682605535963251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4461cef9324cf904299f3d04a3861659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  handType: -1
+  proximityType: -1
+  executionOrder: 0
+  constraintOnRotation: 6
+  useLocalSpaceForConstraint: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
