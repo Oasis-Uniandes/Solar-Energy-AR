@@ -17,7 +17,7 @@ public class UWPGeolocation: MonoBehaviour {
     [SerializeField]
     private TextMeshPro textMesh;
 
-    void Start()
+    void UpdateText()
     {
 #if WINDOWS_UWP
         var latitude, longitude;
@@ -52,6 +52,7 @@ public class UWPGeolocation: MonoBehaviour {
 
                 callbackLocationData(pos);
                 // notify user: Location updated
+                UpdateText();
                 break;
 
             case GeolocationAccessStatus.Denied:
